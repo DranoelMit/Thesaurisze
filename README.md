@@ -1,4 +1,5 @@
 # Thesaurusize
 
-#Hi Tim and Sarah :)
-#Hi Jerry
+Hi Tim and Sarah :)
+\n 
+Hi Jerry
