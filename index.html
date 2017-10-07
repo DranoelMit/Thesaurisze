@@ -2,16 +2,21 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="stylesheet.css">
+ <link rel="stylesheet" href="stylesheet.css">
+ <title> Thesaurusize </title>
 </head>
 
 <body>
   <h1>Thesaurusize</h1>
 
 <form>
-Enter a sentence: <input type="text"><br>
-<input type="submit" value="Submit"
+Enter a sentence: <input type="textarea"><br>
 </form>
+<button onclick="replaceKeywords()"> Submit </button>
+
+<script src="wordSwapper.js"></script>
+
+<p id="result"></p>
 
 
 </body>
