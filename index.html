@@ -4,17 +4,20 @@
 <head>
  <link rel="stylesheet" href="stylesheet.css">
  <title> Thesaurusize </title>
+
+   <script src="wordSwapper.js"></script>
 </head>
 
 <body>
   <h1>Thesaurusize</h1>
 
-<form id="sentence">
-Enter a sentence: <input type="textarea"><br>
+<form>
+Enter a sentence: <input type="text" id="sentence"/><br>
 </form>
-<button onclick="findKeywords()"> Submit </button>
+<input class="button" name="submit" type="submit" value="Submit"
+        onclick="findKeywords(sentence.value)" />
 
-<script src="wordSwapper.js"></script>
+
 
 <p id="result"></p>
 
