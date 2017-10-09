@@ -1,4 +1,23 @@
+
+body
+{
+  background-color: #2ECC71
+}
+
+#sentence
+{
+width: 80%;
+}
+
 h1
 {
+
   font-family: fantasy;
+text-align: center;
+}
+footer
+{
+
+  position: absolute;
+  bottom: 5px;
 }
