@@ -2,9 +2,9 @@ function findKeywords(sentence)
 {
 
   var notKeywords = ["for", "and", "nor", "but", "or", "yet", "so", "the", "my", "his",
-   "her", "that", "we", "you", "I", "a", "me", "us", "it", "him", "is", "was", "walked", "to",
+   "her", "that", "we", "you", "I", "a", "me", "us", "it", "him", "is", "was", "to", "like", "with",
    "hers", "she", "he", "met", "they", "do", "did", "them", "mine", "ours", "yours", "herself",
-   "myself", "himself", "yourself", "themselves", "yourselves", "who", "what", "where", "when"];
+   "myself", "himself", "yourself", "themselves", "yourselves", "who", "what","i", "where", "when"];
 var endPunc="";
 var keywords = {};
  var words =[];
@@ -13,6 +13,7 @@ for (var i = 0; i < sentence.length; i++) {
       if(sentence.indexOf(" ") == -1){ words[0] = sentence; break;}
 
 if(sentence.charAt(i)== ' '){
+
 words.push(sentence.substring(startWord, i));
 startWord=i+1;
 }
