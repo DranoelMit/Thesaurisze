@@ -2,28 +2,39 @@
 <html>
 
 <head>
+
+ <link rel="stylesheet" href="bootstrap.css">
+ <link rel="stylesheet" href="bootstrap-responsive.css">
  <link rel="stylesheet" href="stylesheet.css">
 
  <title> Thesaurusize </title>
 
-   <script src="wordSwapper.js"></script>
+ <script src="wordSwapper.js"></script>
 
 </head>
 
 <body>
+<header>
   <h1>Thesaurusize</h1>
+</header>    
+<main>
+        <form>
+        Enter a sentence: <input type="text" id="sentence"/><br>
+        </form>
+        <input class="button" name="submit" type="submit" value="Submit"
+                onclick="findKeywords(sentence.value)" />
 
-<form>
-Enter a sentence: <input type="text" id="sentence"/><br>
-</form>
-<input class="button" name="submit" type="submit" value="Submit"
-        onclick="findKeywords(sentence.value)" />
 
 
+        <p id="result"></p>
+</main>
 
-<p id="result"></p>
-
-<footer>Thesaurus service provided by <a href="https://words.bighugelabs.com">words.bighugelabs.com</a></footer>
+<footer>
+Thesaurus service provided by
+    <a 
+        href="https://words.bighugelabs.com">words.bighugelabs.com
+    </a>
+</footer>
 </body>
 
 </html>

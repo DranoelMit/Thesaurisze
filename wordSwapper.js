@@ -47,7 +47,7 @@ for (var key in keywords){
 newSentence=  newSentence.replace(key, keywords[key]);
 }
 
-document.getElementById("result").innerHTML = newSentence+endPunc;
+document.getElementById("result").innerHTML = newSentence;
 }
 
 

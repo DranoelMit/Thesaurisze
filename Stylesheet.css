@@ -1,4 +1,26 @@
-h1
+body
 {
-  font-family: fantasy;
+background-color: #80ffe5;
+text-align: center;
+   
+}
+header
+{
+  
+}
+main
+{
+}
+#result
+{
+    color:#000000;
+    font-size: 30pt;
+    padding: 2%;
+}
+footer
+{
+    font-family: monospace;
+    font-size: 8pt;
+    position: absolute;
+    bottom: 0;
 }
