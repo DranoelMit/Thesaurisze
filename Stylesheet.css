@@ -2,11 +2,11 @@ body
 {
 background-color: #80ffe5;
 text-align: center;
-   
+
 }
 header
 {
-  
+
 }
 main
 {
@@ -15,7 +15,7 @@ main
 {
     color:#000000;
     font-size: 30pt;
-    padding: 2%;
+    padding: 5%;
 }
 footer
 {
@@ -23,4 +23,4 @@ footer
     font-size: 8pt;
     position: absolute;
     bottom: 0;
-}
+}    
