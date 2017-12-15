@@ -16,13 +16,14 @@
 <body>
 <header>
   <h1>Thesaurusize</h1>
-</header>    
+</header>
 <main>
-        <form>
-        Enter a sentence: <input type="text" id="sentence"/><br>
-        </form>
-        <input class="button" name="submit" type="submit" value="Submit"
-                onclick="findKeywords(sentence.value)" />
+     <form>
+           <input type="text" id="sentence" placeholder="Enter a sentence!"/><br>
+   </form>
+             <input class="button" name="submit" type="submit" value="Transform"
+                     onchange=findKeywords(sentence.value)" />
+
 
 
 
@@ -31,7 +32,7 @@
 
 <footer>
 Thesaurus service provided by
-    <a 
+    <a
         href="https://words.bighugelabs.com">words.bighugelabs.com
     </a>
 </footer>
