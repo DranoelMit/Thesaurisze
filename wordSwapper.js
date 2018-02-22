@@ -57,7 +57,7 @@ document.getElementById("result").innerHTML = newSentence;
 function replaceKeyword(word){
   var xhr = new XMLHttpRequest();
   xhr.open("GET",
-          "http://words.bighugelabs.com/api/2/9e144e42dacfd6413f3d7eb94aed5017/"+word+"/xml",
+          "http://words.bighugelabs.com/api/2/APIKEYGOESHERE/"+word+"/xml",
           false);
   if(xhr.status == 404) return word;
   xhr.send();
