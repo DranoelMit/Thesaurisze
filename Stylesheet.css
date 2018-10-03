@@ -1,26 +1,52 @@
-body
-{
-background-color: #80ffe5;
-text-align: center;
+body{
+     background-color: #5b8a8c;
+     text-align: center;
+     font-family:    "Calibri", sans-serif;
+     color: #5e5e5e;
+}
+
+header{
 
 }
-header
-{
 
+main{
 }
-main
-{
+
+.button {
+    background-color: #fefffc;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-left: 15px;
+    color: #5e5e5e;
 }
-#result
-{
-    color:#000000;
+
+input[type=text] {
+    background-color: #fefffc;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+input::placeholder {
+     color: #5e5e5e;
+     font-style: italic;
+}
+
+#result{
+    color:#008531;
     font-size: 30pt;
     padding: 5%;
 }
-footer
-{
+
+footer{
     font-family: monospace;
     font-size: 8pt;
     position: absolute;
     bottom: 0;
-}    
+}
