@@ -6,10 +6,15 @@ body{
 }
 
 header{
+     margin: 30vh 0 25px 0;
+}
 
+img{
+     max-height: 15vw;
 }
 
 main{
+
 }
 
 .button {
@@ -39,9 +44,11 @@ input::placeholder {
 }
 
 #result{
-    color:#008531;
+    color: white;
     font-size: 30pt;
     padding: 5%;
+    font-family: serif;
+    font-style: italic;
 }
 
 footer{
