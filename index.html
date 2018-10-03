@@ -1,39 +1,32 @@
 <!DOCTYPE html>
 <html>
+     <head>
+          <!-- <link rel="stylesheet" href="bootstrap.css">
+          <link rel="stylesheet" href="bootstrap-responsive.css"> -->
+          <link rel="stylesheet" href="Stylesheet.css">
 
-<head>
+          <title> Thesaurusize </title>
 
- <link rel="stylesheet" href="bootstrap.css">
- <link rel="stylesheet" href="bootstrap-responsive.css">
- <link rel="stylesheet" href="stylesheet.css">
+          <script src="wordSwapper.js"></script>
+     </head>
 
- <title> Thesaurusize </title>
+     <body>
+          <header>
+               <img alt="Thesaurusize Logo" src="ThesaurusizeIconLight.png"/>
+          </header>
+          <main>
+               <form onsubmit="findKeywords(sentence.value); return false;">
+                    <input type="text" id="sentence" placeholder="Enter a sentence"/>
+                    <input class="button" name="submit" type="submit" value="Transform" />
+               </form>
 
- <script src="wordSwapper.js"></script>
+               <p id="result"></p>
+          </main>
 
-</head>
-
-<body>
-<header>
-  <h1>Thesaurusize</h1>
-</header>
-<main>
-      <form onsubmit="findKeywords(sentence.value); return false;">
-        <input type="text" id="sentence" placeholder="Enter a sentence"/> 
-        <input class="button" name="submit" type="submit" value="Transform" />
-     </form>
-
-
-
-        <p id="result"></p>
-</main>
-
-<footer>
-Thesaurus service provided by
-    <a
-        href="https://words.bighugelabs.com">words.bighugelabs.com
-    </a>
-</footer>
-</body>
+          <footer>
+               Thesaurus service provided by
+               <a href="https://words.bighugelabs.com">words.bighugelabs.com</a>
+          </footer>
+     </body>
 
 </html>

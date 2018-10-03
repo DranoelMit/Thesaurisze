@@ -1,26 +1,59 @@
-body
-{
-background-color: #80ffe5;
-text-align: center;
+body{
+     background-color: #5b8a8c;
+     text-align: center;
+     font-family:    "Calibri", sans-serif;
+     color: #5e5e5e;
+}
+
+header{
+     margin: 30vh 0 25px 0;
+}
+
+img{
+     max-height: 15vw;
+}
+
+main{
 
 }
-header
-{
 
+.button {
+    background-color: #fefffc;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-left: 15px;
+    color: #5e5e5e;
 }
-main
-{
+
+input[type=text] {
+    background-color: #fefffc;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 30px;
 }
-#result
-{
-    color:#000000;
+
+input::placeholder {
+     color: #5e5e5e;
+     font-style: italic;
+}
+
+#result{
+    color: white;
     font-size: 30pt;
     padding: 5%;
+    font-family: serif;
+    font-style: italic;
 }
-footer
-{
+
+footer{
     font-family: monospace;
     font-size: 8pt;
     position: absolute;
     bottom: 0;
-}    
+}
