@@ -1,2 +1,2 @@
 # Thesaurusize
-![Thesaurusize Icon](ThesaurusizeIcon.png)
+![Thesaurusize Icon](ThesaurusizeIconDark.png)
